@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  margin: auto;
+  gap: 50px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 20px;
+}
+
+#firstDiv > div {
+  padding: 30px;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+}
+#firstDiv > div > i {
+  margin-right: 10px;
+}
+#icons {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+ 
+}
+#secondDiv {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  padding: 30px;
+}
+#secondDiv > input {
+  height: 25px;
+  margin-bottom: 20px;
+}
+#third > h3 {
+  margin-bottom: 8px;
+}
+.price {
+  padding: 10px;
+}
+#sub{
+    color: white;
+    background-color: rgb(252, 74, 74);
+    padding: 10px;
+    border: none;
+    
+}

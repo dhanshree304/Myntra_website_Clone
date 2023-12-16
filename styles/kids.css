@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  margin-top: 80px;
+  padding: 10px;
+}
+#top-section > h3 {
+  margin-top: 10px;
+}
+#top-section > h3 > span {
+  color: gray;
+  font-weight: normal;
+}
+#filterBar {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#filterBar > div > select {
+  border: none;
+}
+#filterBar div:last-child {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 6px;
+}
+#container {
+  display: flex;
+}
+#filterSection {
+  border: 1px solid rgb(198, 185, 185);
+  border-bottom: none;
+  width: 20%;
+}
+
+#filterSection > div {
+  padding: 10px;
+}
+#filterBar > div:nth-child(2) {
+  width: 60%;
+  display: flex;
+  gap: 15px;
+}
+#filterSection > div > div > input {
+  height: 20px;
+  width: 20px;
+}
+#filterSection > div > div > label {
+  font-size: 17px;
+}
+#filterSection > div > div {
+  margin-top: 15px;
+}
+#filterSection > p {
+  color: red;
+}
+
+hr {
+  background-color: rgb(198, 185, 185);
+  height: 0.5px;
+  border: none;
+}
+
+#products {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+.subDiv > img {
+  width: 90%;
+}
+#price_per {
+  color: red;
+}
+strike {
+  color: rgb(201, 196, 196);
+  font-weight: 200;
+}
+#products > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+.rate {
+  position: absolute;
+  top: 250px;
+  background-color: rgb(222, 218, 218);
+  padding: 5px;
+}

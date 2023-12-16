@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    body {
+        background-color: #fdefed;
+    }
+
+    #main {
+        margin: auto;
+        margin-top: 80px;
+        background-color: white;
+        height: 500px;
+        padding: 50px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        width: 25%;
+    }
+
+    img {
+        width: 100%;
+        height: 150px;
+    }
+
+    input {
+        outline: none;
+        width: 300px;
+        height: 25px;
+        margin-bottom: 20px;
+    }
+
+    #p1 {
+        color: red;
+        margin-top: 3px;
+        margin-bottom: 20px;
+        font-size: 0.8rem;
+        display: none;
+    }
+
+    span a {
+        color: #FF3F6C;
+        font-weight: 200px;
+        text-decoration: none;
+    }
+
+    button {
+
+        background-color: #FF3F6C;
+        outline: none;
+        border: none;
+        width:100%;
+        height: 35px;
+        margin-bottom: 20px;
+        color: white;
+        cursor: pointer;
+
+    }
+
+    .p2 {
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    #subDiv {
+        padding-left: 30px;
+        background-color: white;
+
+
+    }
+
+    .red {
+        color: red;
+    }
+
+    .otp {
+        width: 200px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+
+    }
+
+    .otp>input {
+        height: 30px;
+        width: 30px;
+    }
+
+    .img1 {
+        height: 80px;
+        width: 80px;
+    }
+</style>
+
+<body>
+    <div id="main"><img src="../Assets/images/101.webp" alt="">
+        <div id="subDiv">
+            <h2>Signup</h2>
+            <p id="mobNum"></p>
+            <label for="">
+                Name
+            </label>
+            <input type="text" placeholder="Please enter Your name" id="name">
+            <label for="">
+                Email
+            </label>
+            <input type="email" id="email" placeholder="..@gmail.com">
+
+
+            <p class="p2">By continuing, I agree to the<span><a href="#"> Terms of Use</a> </span>& <span><a
+                        href="#">Privacy Policy</a></span></p>
+            <button id="continuBtnSignup">CONTINUE</button>
+            <p class="p2">Have trouble sign up? <span><a href="#">Get help</a></span></p>
+        </div>
+    </div>
+
+
+</body>
+<script src="../scripts/login.js"></script>
+
+</html>

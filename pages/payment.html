@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/payment.css">
+</head>
+
+<body>
+
+    <h2>Choose Your Payment method</h2>
+
+    <div class="main">
+
+        <div id="firstDiv">
+            <div><i class="fa-solid fa-credit-card"></i>Debit/Credit Card</div>
+            <div><i class="fa-solid fa-wallet"></i>Wallet</div>
+            <div><i class="fa-brands fa-google-pay"></i>UPI</div>
+            <div><i class="fa-solid fa-money-bill-wave"></i>Cash On Delivery</div>
+        </div>
+        <div>
+            <div id="icons"><i class="fa-brands fa-cc-visa"></i><i class="fa-brands fa-cc-mastercard"></i><i
+                    class="fa-brands fa-paypal"></i></div>
+            <div id="secondDiv">
+                <h3>CARD NUMBER</h3>
+                <form id="formTag">
+                    <input type="text" placeholder="Enter Card Number" name="cardNum">
+                    <h3>EXP DATE</h3>
+                    <input type="date" name="expDate">
+                    <h3>CVV</h3>
+                    <input type="text" placeholder="CVV" name="cvv">
+                    <h3>NAME</h3>
+                    <input type="text" placeholder="Enter card holder name" name="holderName">
+                </form>
+                <button id="sub">submit</button>
+                <h3>Hint: CN: 12345678945</h3>
+                <h3>Pass: 1234</h3>
+            </div>
+        </div>
+        <div id="third">
+            <h3>Delevering Order To</h3>
+            <p id="finalAddress">mnjkdhu9uiop enjkwhu<br />iyhuiuhekw</p>
+
+            <hr />
+            <h1 class="price">Price Summary</h1>
+            <hr />
+            <h3 class="price">Final Summary</h3>
+            <h1 class="price" id="finalPrice"> RS. 2344</h1>
+        </div>
+    </div>
+
+</body>
+<script src="../scripts/payment.js"></script>
+<script src="https://kit.fontawesome.com/b5962a8d07.js" crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,351 @@
+.div6 {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+#navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  position: relative;
+  position: fixed;
+  background-color: white;
+  margin-top: -80px;
+  z-index: 99;
+}
+#navbar img {
+  height: 70px;
+  width: 170px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+#searchBox {
+  width: 68%;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: #f5f5f6;
+  border-radius: 4px;
+  border-left: none;
+}
+#searchIcon {
+  background-color: #f5f5f6;
+  width: 30px;
+  height: 50px;
+  text-align: center;
+}
+#searchIcon i {
+  padding-top: 20px;
+}
+#nav-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40px;
+  align-items: center;
+  width: 50%;
+  position: relative;
+  height: 100%;
+}
+#profileDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  position: relative;
+  height: 100%;
+}
+.profileSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+
+  height: 80px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  height: 100%;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  height: 100%;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: transparent;
+  font-family: inherit;
+  margin: 0;
+  border-bottom: 4px solid transparent;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  border-bottom: 4px solid red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 70%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  height: 65vh;
+}
+.dropdown-content > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 30px 20px;
+}
+.dropdown-content > div > div > a {
+  color: gray;
+  margin-top: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 13px;
+}
+.dropdown-content .anchorHeading {
+  color: red;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.dropdown-content a:hover {
+  font-weight: 700;
+  color: black;
+}
+.dropdown-content .anchorHeading:hover {
+  color: red;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 70%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: -66.5px;
+  height: 65vh;
+}
+.dropdown-content1 > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 30px 20px;
+}
+.dropdown-content1 > div > div > a {
+  color: gray;
+  margin-top: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 13px;
+}
+.dropdown-content1 .anchorHeading {
+  color: red;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.dropdown-content1 a:hover {
+  font-weight: 700;
+  color: black;
+}
+.dropdown-content1 .anchorHeading:hover {
+  color: red;
+}
+
+.dropdown:hover .dropdown-content1 {
+  display: block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 70%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: -158px;
+  height: 65vh;
+}
+.dropdown-content2 > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 30px 20px;
+}
+.dropdown-content2 > div > div > a {
+  color: gray;
+  margin-top: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 13px;
+}
+.dropdown-content2 .anchorHeading {
+  color: red;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.dropdown-content2 a:hover {
+  font-weight: 700;
+  color: black;
+}
+.dropdown-content2 .anchorHeading:hover {
+  color: red;
+}
+
+.dropdown:hover .dropdown-content2 {
+  display: block;
+}
+
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 70%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: -224.5px;
+  height: 65vh;
+}
+.dropdown-content3 > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 30px 20px;
+}
+.dropdown-content3 > div > div > a {
+  color: gray;
+  margin-top: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 13px;
+}
+.dropdown-content3 .anchorHeading {
+  color: red;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.dropdown-content3 a:hover {
+  font-weight: 700;
+  color: black;
+}
+.dropdown-content3 .anchorHeading:hover {
+  color: red;
+}
+
+.dropdown:hover .dropdown-content3 {
+  display: block;
+}
+
+.dropdown-content4 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 70%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: -370px;
+  height: 65vh;
+}
+.dropdown-content4 > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 30px 20px;
+}
+.dropdown-content4 > div > div > a {
+  color: gray;
+  margin-top: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 13px;
+}
+.dropdown-content4 .anchorHeading {
+  color: red;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.dropdown-content4 a:hover {
+  font-weight: 700;
+  color: black;
+}
+.dropdown-content4 .anchorHeading:hover {
+  color: red;
+}
+
+.dropdown:hover .dropdown-content4 {
+  display: block;
+}
+
+.drop2 {
+  margin-top: 20px;
+}
+.drop1 {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.color1 {
+  color: red;
+  margin-bottom: 5px;
+}
+
+.profileDropdown {
+  width: 250px;
+  height: auto;
+  position: absolute;
+  top: 86px;
+  right: 70px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 10px;
+  display: none;
+}
+.profileDropdown a {
+  display: block;
+  margin-top: 5px;
+}
+.profileDropdown button {
+  color: red;
+  padding: 7px 10px;
+  border: 1px solid rgb(216, 213, 213);
+  background: transparent;
+}
+.profileDropdown button:hover {
+  border: 1px solid red;
+}
+hr {
+  margin-top: 15px;
+  color: gray;
+}
+.profileDropdown p {
+  margin: 7px;
+}
+.profileSection {
+  border-bottom: 4px solid transparent;
+}
+
+.profileSection:hover {
+  border-bottom: 4px solid red;
+}

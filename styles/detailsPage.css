@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+#main > div {
+  width: 50%;
+}
+#imgDiv{
+    display: flex;
+    align-items: center;
+    margin-top: -150px;
+    justify-content: center;
+}
+#imgDiv>img{
+    width: 70%;
+    
+    
+}
+
+#desc {
+  color: rgb(126, 124, 124);
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#mrpDiv {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  margin-top: 10px;
+}
+#mrpPtag {
+  color: rgb(146, 142, 142);
+}
+#disPtag {
+  color: rgb(255, 64, 0);
+}
+#green {
+  color: green;
+  margin-top: 10px;
+}
+.red {
+  color: rgb(229, 83, 83);
+  margin-top: 3px;
+}
+#sizeDiv {
+  
+  display: none;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+#sizeDiv > div {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(172, 168, 168);
+  border-radius: 50%;
+}
+#sizes {
+  display: none;
+  gap: 20px;
+  align-items: center;
+  margin-top: 10px;
+}
+#btns {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+#btn1 {
+    font-size: 1rem;
+    font-weight: 500;
+  height: 50px;
+  width: 40%;
+  padding: 10px;
+  background-color: rgb(241, 88, 88);
+  color: white;
+  border: none;
+}
+#btn2 {
+    font-size: 1rem;
+    font-weight: 500;
+  height: 50px;
+  width: 30%;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(205, 203, 203);
+}
+#btns>button>i{
+    margin-right: 7px;
+
+
+}
+#deliOpt{
+    margin-top: 20px;
+}
+#address {
+   width: 40%;
+    display: flex;
+    border: 2px solid rgb(205, 203, 203);
+    gap: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+#address>h4>i{
+    color:green;
+    
+    
+}
+span{
+    color: red;
+    
+}
+.payOpt{
+    margin-top:20px;
+}
+#return{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+#return>p{
+    margin-top: 20px;
+}
+.payOpt>i{
+    margin-right: 10px;
+}
+.offers{
+    margin-top: 20px;
+}
+.offers>span{
+    color: rgb(189, 5, 11);
+}
+ul>li{
+    margin-top: 15px;
+}
+.emi{
+    margin-top: 10px;
+}

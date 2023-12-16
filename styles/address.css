@@ -1,0 +1,27 @@
+#contactDet>h4{
+    
+    margin: 20px;
+}
+.inputBox{
+    display: block;
+    margin: 20px;
+    width: 50%;
+    height: 30px;
+    outline: none;
+}
+#saveAdd{
+    width: 50%;
+    height: 50px;
+    background-color: rgb(232, 89, 89);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+#addDet>h4{
+    margin: 20px;
+}
+#main{
+    margin-left: 80px;
+}

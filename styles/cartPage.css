@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#topDiv {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  width: 30%;
+}
+#logo > img {
+  width: 100%;
+}
+#middle {
+  display: flex;
+  width: 40%;
+  gap: 5px;
+  align-items: center;
+}
+
+.line {
+  height: 1px;
+  border: 1px dotted rgb(73, 75, 73);
+  width: 5%;
+  background-color: gray;
+}
+#last {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#last > img {
+  width: 10%;
+}
+#main {
+  display: flex;
+  width: 60%;
+  margin: auto;
+
+  gap: 10px;
+}
+#offers {
+  border-right: 0.5px solid gray;
+  padding: 20px;
+}
+#h4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#p {
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 2px;
+  margin-bottom: 10px;
+}
+#showMore {
+  color: red;
+  margin-bottom: 10px;
+}
+#applyCoupon {
+  width: 30%;
+}
+#applyCoupon > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+#applyCoupon > div > div {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+#applyCoupon > div > button {
+  padding: 5px 10px;
+  border: 1px solid red;
+  color: red;
+}
+.red {
+  color: red;
+}
+#coupon {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 0.5px solid rgb(193, 192, 192);
+}
+#totalAm {
+  border-top: 0.5px solid rgb(193, 192, 192);
+}
+#placerOrder {
+  width: 100%;
+
+  color: rgb(243, 234, 234);
+  background-color: rgb(215, 21, 21);
+  border: none;
+  height: 40px;
+  margin: 15px 5px 10px 5px;
+}
+.card {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  position: relative;
+}
+
+.card > div > img {
+  width: 150px;
+
+  height: 180px;
+}
+
+.price > span {
+  color: red;
+}
+.price > strike {
+  color: gray;
+}
+.div2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sizeDiv {
+  display: flex;
+  gap: 20px;
+}
+.cross {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  cursor: pointer;
+}
+.selectDiv {
+  display: flex;
+  gap: 5px;
+}
+.selectDiv > select {
+  border: none;
+}
+.selectDiv > select:focus {
+  outline: 0;
+}
+#couponSection {
+  display: none;
+  flex-direction: column;
+
+  padding: 3px;
+}
+#couponSection > div > button {
+  border: 1px solid red;
+  color: red;
+  padding: 6px;
+  border-radius: 10px;
+}
+#desc {
+  border-bottom: 1px solid rgb(210, 193, 193);
+  margin-bottom: 13px;
+}
+#disCoupon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#disCoupon > div {
+  padding: 2px;
+  border: 1px dotted black;
+}
